@@ -1,0 +1,51 @@
+# === Python / FastAPI ===
+venv/
+.venv/
+env/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# Byte-compiled
+*.egg-info/
+.eggs/
+
+# MyPy / Cache / Cache tooling
+.mypy_cache/
+.pytest_cache/
+
+# === Node / React / Vite ===
+node_modules/
+dist/
+build/
+.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+vite.config.local.*
+
+# === Environment / Secrets ===
+.env
+.env.*
+*.pem
+
+# === Docker ===
+# Volumes / build cache
+docker-data/
+docker-compose.override.yml
+
+# === Editors / IDE ===
+.vscode/
+.idea/
+*.swp
+
+# === OS Trash ===
+.DS_Store
+Thumbs.db
